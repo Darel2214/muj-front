@@ -1,0 +1,37 @@
+{
+  "name": "nextjs",
+  "version": "5.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.3.3",
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "@mui/x-data-grid": "^5.2.2",
+    "@uidotdev/usehooks": "^2.4.1",
+    "axios": "^0.24.0",
+    "keygen": "^0.4.0",
+    "next": "latest",
+    "next-pwa": "^5.6.0",
+    "nookies": "^2.5.2",
+    "pigeon-maps": "^0.21.5",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-query": "^3.39.3"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-next": "latest"
+  }
+}
